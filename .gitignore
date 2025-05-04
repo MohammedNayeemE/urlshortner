@@ -1,0 +1,9 @@
+
+# Go build files
+bin/
+*.exe
+*.out
+*.test
+
+# Environment
+.env
