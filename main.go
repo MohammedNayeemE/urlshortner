@@ -18,6 +18,7 @@ func main() {
 	baseUrl := os.Getenv("BASE_URL");
 
 	if baseUrl == "" {
+		baseUrl = "http://localhost:8080"
 		log.Fatal("BASE_URL not found");
 	}
 
